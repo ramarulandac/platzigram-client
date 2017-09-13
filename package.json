@@ -1,0 +1,35 @@
+{
+  "name": "platzigram-client",
+  "version": "1.0.0",
+  "description": "Platzigram API client",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && ava",
+    "lint": "standard"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramarulandac/platzigram-client.git"
+  },
+  "author": "René Marulanda <rene.marulanda@gmail.com> (https://twitter.com/MaruloRenacuajo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ramarulandac/platzigram-client/issues"
+  },
+  "homepage": "https://github.com/ramarulandac/platzigram-client#readme",
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "babel-eslint": "^7.2.3",
+    "nock": "^9.0.14",
+    "standard": "^10.0.2",
+    "uuid-base62": "^0.1.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
+}
